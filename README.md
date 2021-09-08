@@ -18,3 +18,6 @@
 3 Create an app on Heroku and connect heroku with your github repository 
 4 Manual Deploy 
 ```
+### Deploy to Heroku 🏃‍♂
+
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImTheekshana126/Miss-Lisa-Music)
