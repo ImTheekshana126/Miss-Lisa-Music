@@ -1,6 +1,7 @@
 {
-    "name": "Rose",
+    "name": "Lisa Music",
     "description": "Grabs song from yt and sends it to telegram by @mr_srlock",
+    "logo": "https://telegra.ph/file/b3d5d452112b3e09b44fd.jpg",
     "env": {
         "API_ID": {
             "description": "Get this value from my.telegram.org.",
