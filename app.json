@@ -1,0 +1,41 @@
+{
+    "name": "Rose",
+    "description": "Grabs song from yt and sends it to telegram by @mr_srlock",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org.",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Get this value by making a bot from @BotFather.",
+            "required": true
+        },
+        "OWNER_ID": {
+            "description": "Your telegram user id.",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "addons": [
+        {
+            "plan": "heroku-postgresql",
+            "options": {
+                "version": "12"
+            }
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
